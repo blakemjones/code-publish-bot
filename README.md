@@ -20,12 +20,12 @@ This is a Flask application that utilizes the PyGithub library (a library to all
   5. Script to Run for File Update
 
 Sample command: 
-`set PERSONAL_ACCESS_TOKEN = your_token_here`
-`set GITHUB_SERVER_ADDRESS = your_github_server_address_here`
-`set SOURCE_BRANCH = your_source_branch_here`
-`set LOCAL_FILE_CLONE_LOCATION = "C:\Users\user\Documents"`
-`code-publish^ 
---open-pull-request=True --pr_title="Your PR Title" --pr_body="Your PR Body" 
-^--branch_name="your_branch_name" 
-^--file_to_update="file.py" 
-^--file_edit_scripts="C:\users\documents\edit.py`
+\n`set PERSONAL_ACCESS_TOKEN = your_token_here`
+\n`set GITHUB_SERVER_ADDRESS = your_github_server_address_here`
+\n`set SOURCE_BRANCH = your_source_branch_here`
+\n`set LOCAL_FILE_CLONE_LOCATION = "C:\Users\user\Documents"`
+\n`code-publish^ 
+\n--open-pull-request=True --pr_title="Your PR Title" --pr_body="Your PR Body" 
+\n^--branch_name="your_branch_name" 
+\n^--file_to_update="file.py" 
+\n^--file_edit_scripts="C:\users\documents\edit.py`
