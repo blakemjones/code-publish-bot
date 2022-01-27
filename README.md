@@ -20,7 +20,7 @@ This is a Flask application that utilizes the PyGithub library (a library to all
   5. Script to Run for File Update
 
 Sample command: 
-\n`set PERSONAL_ACCESS_TOKEN = your_token_here`
+\\`set PERSONAL_ACCESS_TOKEN = your_token_here`
 \n`set GITHUB_SERVER_ADDRESS = your_github_server_address_here`
 \n`set SOURCE_BRANCH = your_source_branch_here`
 \n`set LOCAL_FILE_CLONE_LOCATION = "C:\Users\user\Documents"`
