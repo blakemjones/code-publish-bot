@@ -25,7 +25,7 @@ Sample command:
 <br />`set SOURCE_BRANCH = your_source_branch_here`
 <br />`set LOCAL_FILE_CLONE_LOCATION = "C:\Users\user\Documents"`
 <br />`code-publish^` 
-<br />`--open-pull-request=True --pr_title="Your PR Title" --pr_body="Your PR Body"`
-<br />^`--branch_name="your_branch_name"`
-<br />^`--file_to_update="file.py"`
-<br />^`--file_edit_scripts="C:\users\documents\edit.py`
+<br />`--open-pull-request=True --pr_title="Your PR Title" --pr_body="Your PR Body"^`
+<br />`--branch_name="your_branch_name"^`
+<br />`--file_to_update="file.py"^`
+<br />`--file_edit_scripts="C:\users\documents\edit.py`
